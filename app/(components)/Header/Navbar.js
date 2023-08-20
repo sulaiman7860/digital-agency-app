@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 
 export default function Navbar() {
@@ -7,46 +8,46 @@ export default function Navbar() {
     <div>
         <nav className="navbar navbar-expand-lg navbar-dark">
   <div className="container">
-    <a className="navbar-brand fw-bold" href="#">LOGO</a>
+    <span className="navbar-brand fw-bold" href="#">LOGO</span>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+          <Link className="nav-link fw-bold active" href="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link fw-bold active" href="#">About</a>
+          <Link className="nav-link fw-bold active" href="/about">About</Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link fw-bold active" href="#" >
+          <Link className="nav-link fw-bold active" href="/pages" >
             Pages
-          </a>
+          </Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link fw-bold active" href="#" >
+          <Link className="nav-link fw-bold active" href="/services" >
             Services
-          </a>
+          </Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link fw-bold active" href="#" >
+          <Link className="nav-link fw-bold active" href="/portfolio" >
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link fw-bold active" href="#" >
+          <Link className="nav-link fw-bold active" href="/blog" >
             Blog
-          </a>
+          </Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link fw-bold active" href="#" >
+          <Link className="nav-link fw-bold active" href="/contact" >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
       <form className="d-flex ms-5">
-        <input className="form-control w-75" placeholder="Search" id="inputFeild" style={{borderStartStartRadius:"20px",borderEndStartRadius:"20px"}}/>
+        <input className="w-75 border-0 ps-3" placeholder="Search" id="inputFeild" style={{borderStartStartRadius:"20px",borderEndStartRadius:"20px"}}/>
         <button className="btn btn-light text-primary" style={{borderStartEndRadius:"20px",borderEndEndRadius:"20px",width:"3.5rem"}}><FontAwesomeIcon icon={faSearch}/></button>
       </form>
     </div>
