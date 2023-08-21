@@ -9,3 +9,16 @@ header {
     background-image: url(./assets/images/3632097.jpg);
     height: 40vh;
 }
+
+.thisClass {
+    margin-top: 20vh;
+}
+
+.container-fluid {
+    background-color: #bde0fe;
+    height: 30rem;
+}
+
+footer {
+    background-color: #bde0fe; 
+}

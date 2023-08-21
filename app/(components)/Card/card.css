@@ -1,0 +1,13 @@
+
+
+.cardId {
+    background-color: #bde0fe;
+    border: 2px solid;
+    border-color: #bde0fe;
+}
+
+.cardId:hover {
+background-color: #fff;
+transition: 0.5s;
+border-color: #bde0fe;
+}
