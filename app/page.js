@@ -3,12 +3,15 @@ import Header from "./(components)/Header/Header"
 import Image from "next/image"
 import Lonely from "./assets/images/5555732.jpg"
 import Heading from "./(components)/Heading/Heading"
+import Images from "./(components)/Image/Images"
+import Button from "./(components)/Button/Button"
 
 export default function Home() {
   return (
     <>
     <Header/>
-    <div className="container thisClass">
+<main>
+<div className="container thisClass">
       <div className="row" style={{marginTop:"15vh"}}>
         <div className="col-12">
           <h4 className="text-center fw-bold text-primary" >Our Services</h4>
@@ -17,8 +20,7 @@ export default function Home() {
         <h1 className="mt-2 text-end">We Are Providing Digital Services</h1>
         </div>
          <div className="col-2 offset-1">
-         <span className=""> <button className="me-3 btn btn-outline-primary rounded-circle">&lt;</button>
-         <button className="btn btn-outline-primary rounded-circle">&gt;</button></span>
+         <Button/>
 
          </div>
       </div>
@@ -72,9 +74,20 @@ export default function Home() {
    {/* ---------------------------------------------------------------------------------------------------------------------------------------- */}
    
    <div className="container thisClass">
-
+<div className="row">
+  <div className="col-12">
+  <h4 className="text-primary">OUR PORTFOLIO</h4>
+  <h1 className="mb-3">Take A Look At Our Latest Work</h1>
+  </div>
+<Images/>
+<Images/>
+<div className="col-12 text-center mt-4">
+  <Button/>
+</div>
+</div>
 
    </div>
+</main>
    
     </>
   )
