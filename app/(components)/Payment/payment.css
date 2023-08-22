@@ -1,0 +1,27 @@
+
+
+.cardBox:hover {
+    color: #fff;
+    background-color: #0077b6;
+    transition: 0.5s;
+
+} 
+
+.cardBox button {
+    background-color: #0077b6;
+    color: #fff;
+}
+.cardBox:hover button {
+    color: #0077b6;
+    background-color: #fff;
+    transition: 0.5s;
+
+} 
+
+.cardBox .h3 {
+    color: #0077b6;
+}
+.cardBox:hover .h3 {
+    color: #fff;
+    transition: 0.5s;
+}

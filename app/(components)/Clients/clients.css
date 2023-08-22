@@ -1,0 +1,14 @@
+
+
+
+.clients {
+    background-color: #0496ff;
+    color: #fff;
+    border: 3px solid #4cc9f0;
+}
+.clients:hover {
+    background-color: #fff;
+    color: #00a6fb;
+    transition: 0.5s;
+}
+
