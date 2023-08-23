@@ -1,4 +1,5 @@
 import React from 'react'
+import SingleButton from '../Button/SingleButton'
 
 export default function Heading(props) {
   return (
@@ -8,7 +9,7 @@ export default function Heading(props) {
                 <h3  className="text-primary">{props.h3}</h3>
               <h1 className='fw-bold'>{props.title}</h1>
               <p className='my-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, esse? Minima eius a eaque quam vitae temporibus voluptate, at ratione, nesciunt tenetur aliquam laborum ipsum rem labore.</p>
-              <button className='text-light rounded-pill border-0 px-4 py-2' style={{backgroundColor:"#0077b6"}}>{props.button}</button>
+              <SingleButton button={props.button}/>
             </div>
           </div>
     </div>

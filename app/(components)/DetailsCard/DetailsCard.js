@@ -10,7 +10,7 @@ export default function DetailsCard() {
                     ea sapiente magnam eligendi asperiores facere ratione voluptate expedita porro
                     fugiat,dolorem est, voluptatum consectetur eveniet tenetur dolor molestiae
                     dignissimos?</p>
-                <a href="javascript:void(0)">Read More -&gt;</a>
+                <a href="javascript:void(0)">Read More -&gt</a>
 
             </div>
 
