@@ -22,6 +22,11 @@ header {
     background-color: #2196F3;
 }
 
+
+.blog:hover {
+  text-decoration: underline;
+    text-decoration-color: #3a86ff;
+}
 /* Slider Button */
 
 .switch {

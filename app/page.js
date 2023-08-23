@@ -7,6 +7,9 @@ import Images from "./(components)/Image/Images"
 import Button from "./(components)/Button/Button"
 import Payment from "./(components)/Payment/Payment"
 import Clients from "./(components)/Clients/Clients"
+import DetailsCard from "./(components)/DetailsCard/DetailsCard"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -141,6 +144,29 @@ export default function Home() {
             <Clients client="Min Watson" word="CONSULTANT"/>
             <Clients client="Edward Hunter" word="IT Specilist"/>
         </div>
+        </div>
+      </div>
+
+      <div className="container thisClass">
+        <div className="row">
+          <div className="col-3">
+            <h4 className="text-primary fw-bold">OUR BLOG</h4>
+            <h1 className="blog mb-4">Latest News & Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsa tenetur culpa ea inventore.</p>
+            <div className="row">
+              <div className="col-9">
+              <input type="text" placeholder="Enter Your Email" className="w-100 border-primary ps-3 h-100"/>
+              </div>
+              <div className="col-3">
+                <button className="btn btn-primary w-100"><FontAwesomeIcon icon={faArrowRight} /></button>
+              </div>
+            </div>
+          </div>
+          <DetailsCard/>
+          <DetailsCard/>
+          <div className="col-1 d-flex align-items-center">
+          <Button/>
+          </div>
         </div>
       </div>
       

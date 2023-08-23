@@ -1,0 +1,22 @@
+.thisDiv > .paragraph, a {
+    color: #2196F3; 
+}
+
+.thisDiv {
+    border:2px solid #2196F3 ;
+}
+
+.thisDiv:hover {
+    background-color: #2196F3;
+    color: #fff;
+    transition: 0.5s;
+}
+.thisDiv:hover > .paragraph {
+    color: #fff;
+    transition: 0.5s;
+}
+.thisDiv:hover > a {
+    color: #fff;
+    transition: 0.5s;
+}
+
