@@ -5,6 +5,11 @@ header {
     height: 75vh;
 }
 
+.active:hover {
+  text-decoration: underline;
+  text-decoration-color: #edf6f9;
+}
+
 #headerId {
     background-image: url(./assets/images/3632097.jpg);
     height: 40vh;
