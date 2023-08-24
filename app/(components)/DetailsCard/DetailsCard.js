@@ -1,4 +1,6 @@
 import "./detailsCard.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export default function DetailsCard() {
     return (
@@ -10,7 +12,7 @@ export default function DetailsCard() {
                     ea sapiente magnam eligendi asperiores facere ratione voluptate expedita porro
                     fugiat,dolorem est, voluptatum consectetur eveniet tenetur dolor molestiae
                     dignissimos?</p>
-                <a href="javascript:void(0)">Read More -&gt</a>
+                <a href="javascript:void(0)">Read More <FontAwesomeIcon height={15} icon={faArrowRight}/></a>
 
             </div>
 
