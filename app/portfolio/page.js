@@ -27,7 +27,7 @@ export default function Contact() {
       <div className="container thisClass">
         <div className="row">
           <div className="col-12 text-center">
-            <h1 className='fw-bold' style={{ color: "#06d6a0" }}>Course We Can Offer</h1>
+            <h1 className='fw-bold' style={{ color: "#06d6a0" }}>Our Courses</h1>
             <p className='my-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <Images title1="Web Development" title2="Artificial Intelligent" title3="Data Science" 
