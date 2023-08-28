@@ -1,0 +1,28 @@
+
+
+
+.heading3 {
+    color: #bc4749;
+}
+
+.pTags {
+    color: #6c757d;
+}
+
+.fieldSet {
+    border: 3px solid #6c757d;
+    border-radius: 20px;
+}
+.fieldSet:hover {
+    border:3px dotted #3dccc7;
+    background-color: #2ec4b6;
+    transition: 0.5s;
+}
+.fieldSet:hover  .heading3{
+    color: #fff;
+    transition: 0.5s;
+}
+.fieldSet:hover  .pTags{
+    color: #fff;
+    transition: 0.5s;
+}
