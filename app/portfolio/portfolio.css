@@ -1,0 +1,35 @@
+
+
+
+#portfolio {
+    background-image: url(../assets//images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+  
+  #portfolioCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  #portfolioCard > h1 {
+    display: none;
+    color: #06d6a0;
+  }
+  #portfolioCard:hover h1 {
+    display: block;
+  }
+  #portfolioCard > p {
+    display: none;
+    color: #d9dcd6;
+  }
+  #portfolioCard:hover p {
+    display: block;
+  }
+  #portfolioCard > .styleButton {
+    display: none;
+  }
+  #portfolioCard:hover > .styleButton {
+    display: block;
+  }

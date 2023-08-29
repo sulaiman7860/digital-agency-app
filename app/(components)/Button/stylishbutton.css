@@ -1,0 +1,16 @@
+
+
+
+.stylishButton {
+    background-color: #e63946;
+    color: #edf2f4;
+    border: 3px solid #d90429;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.stylishButton:hover {
+    background-color: #f28482;
+    color: #edf2f4;
+    border-color:#e07a5f;
+    transition: 0.5s;
+}

@@ -17,6 +17,7 @@ header {
 
 .thisClass {
     margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 .container-fluid {
@@ -32,6 +33,8 @@ header {
   text-decoration: underline;
     text-decoration-color: #3a86ff;
 }
+
+
 /* Slider Button */
 
 .switch {
@@ -96,5 +99,4 @@ header {
 
 footer {
     background-color: #bde0fe; 
-    margin-top: 30vh;
 }
