@@ -47,7 +47,7 @@ export default function Home() {
         <div className="container thisClass">
           <div className="row">
             <div className="col-6">
-              <Image src={Lonely} height={350} width={500} />
+              <Image src={Lonely} height={350} width={450} />
             </div>
             <div className="col-6">
               <Heading title="We Design,Build Brands & Digital Products" button="Read More" />

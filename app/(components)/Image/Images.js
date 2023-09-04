@@ -9,17 +9,17 @@ export default function Images(props) {
     <div className='mb-3'>
       <div className="row">
       <div className="col-4 text-center ">
-      <Image className='rounded' src={pixel1} height={350} width={350}/>
+      <Image className='rounded' src={pixel1} height={300} width={300} alt=''/>
       <h5 className='fw-bold my-3'>{props.title1}</h5>
       <p className='text-secondary'>{props.prag1}</p>
       </div>
       <div className="col-4 text-center">
-      <Image className='rounded' src={pixel2} height={350} width={350}/>
+      <Image className='rounded' src={pixel2} height={300} width={300} alt=''/>
       <h5 className='fw-bold my-3'>{props.title2}</h5>
       <p className='text-secondary'>{props.prag2}</p>
       </div>
       <div className="col-4 text-center">
-      <Image className='rounded' src={pixel3} height={350} width={350}/>
+      <Image className='rounded' src={pixel3} height={300} width={300} alt=''/>
       <h5 className='fw-bold my-3'>{props.title3}</h5>
       <p className='text-secondary'>{props.prag3}</p>
       </div>
