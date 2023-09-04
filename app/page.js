@@ -47,7 +47,7 @@ export default function Home() {
         <div className="container thisClass">
           <div className="row">
             <div className="col-6">
-              <Image src={Lonely} height={350} width={450} />
+              <Image src={Lonely} height={350} width={450} alt=""/>
             </div>
             <div className="col-6">
               <Heading title="We Design,Build Brands & Digital Products" button="Read More" />
@@ -139,7 +139,7 @@ export default function Home() {
         <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            <h1 className="text-light my-4">We 're Trusted By Clients</h1>
+            <h1 className="text-light my-4">We re Trusted By Clients</h1>
           </div>
             <Clients client="Min Watson" word="CONSULTANT"/>
             <Clients client="Edward Hunter" word="IT Specilist"/>
