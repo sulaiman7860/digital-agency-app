@@ -10,10 +10,10 @@ export default function About() {
       <Header title="About" />
       <div className="container thisClass">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <Heading h1="We 'er The World's One Of The Best Company" button="Read More" />
           </div>
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <Image height={350} src={gruop} />
           </div>
         </div>

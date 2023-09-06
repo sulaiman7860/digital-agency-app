@@ -7,7 +7,7 @@ import "./blogpics.css"
 export default function BlogPics(props) {
   return (
     <div className="row">
-        <div className="col-4">
+        <div className="col-12 col-lg-4">
         <div className='container fieldSet'>
     <Image className='rounded my-3' width={320} height={320} src={campus1} alt=''/>
      <p className='pTags'>March 10,2015</p>
@@ -15,7 +15,7 @@ export default function BlogPics(props) {
      <p className='pTags'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at veniam iste quas, dolorem neque minus architecto eaque.</p>
     </div>
     </div>
-    <div className="col-4">
+    <div className="col-12 col-lg-4">
         <div className='container fieldSet'>
     <Image className='rounded my-3' width={320} height={320} src={campus2} alt=''/>
      <p className='pTags'>March 10,2015</p>
@@ -23,7 +23,7 @@ export default function BlogPics(props) {
      <p className='pTags'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at veniam iste quas, dolorem neque minus architecto eaque.</p>
     </div>
     </div>
-    <div className="col-4">
+    <div className="col-12 col-lg-4">
         <div className='container fieldSet'>
     <Image className='rounded my-3' width={320} height={320} src={campus3} alt=''/>
      <p className='pTags'>March 10,2015</p>

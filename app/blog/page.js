@@ -12,10 +12,10 @@ export default function Contact() {
       <Header title="Blog"/>
       <div className="container thisClass">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <Image src={Lonely} height={350} width={500} alt=''/>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <Heading title="We Have Multipule Campus" button="Explore More" />
             </div>
           </div>

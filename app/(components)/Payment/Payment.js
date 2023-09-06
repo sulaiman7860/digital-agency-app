@@ -4,7 +4,7 @@ import "./payment.css"
 
 export default function Payment(props) {
     return (
-        <div className='cardBox col-4 text-center mt-5'>
+        <div className='cardBox col-12 col-md-4 text-center mt-5'>
            <div className="shadow-lg py-3">
            <h3 className='fw-bold'>{props.plan}</h3>
             <Image className="my-3 rounded-circle" src={bussiness} width={70}

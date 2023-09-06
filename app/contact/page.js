@@ -24,7 +24,7 @@ export default function Contact() {
             <div className="col-12">
             <section className="contact-us">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <div>
                 <FontAwesomeIcon height={20} width={20} icon={faHome}/>
               <span>
@@ -47,7 +47,7 @@ export default function Contact() {
               </span>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <form className=''>
               <Input type="text" place="Enter Name" />
               <Input type="email" place="Enter Email" />

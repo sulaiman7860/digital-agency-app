@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-md navbar-dark">
   <div className="container">
     <span className="navbar-brand fw-bold" href="#">LOGO</span>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,5 +54,9 @@ export default function Navbar() {
   </div>
 </nav>
     </div>
+
+
+
+
   )
 }

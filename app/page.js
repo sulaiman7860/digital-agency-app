@@ -30,13 +30,13 @@ export default function Home() {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-4">
+            <div className="col-12 col-lg-4 mt-2">
               <Card title="Web Development" />
             </div>
-            <div className="col-4">
+            <div className="col-12 col-lg-4 mt-2">
               <Card title="Graphic Design" />
             </div>
-            <div className="col-4">
+            <div className="col-12 col-lg-4 mt-2">
               <Card title="Digital Marketing" />
             </div>
           </div>
@@ -46,10 +46,10 @@ export default function Home() {
 
         <div className="container thisClass">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <Image src={Lonely} height={350} width={450} alt=""/>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <Heading title="We Design,Build Brands & Digital Products" button="Read More" />
             </div>
           </div>
@@ -62,13 +62,13 @@ export default function Home() {
           <div className="row">
             <div className="col-10 offset-1 p-5">
               <div className="row py-5 border border-light">
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <Card title="Smart Planing" />
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <Card title="Our Partnership" />
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <Card title="Super Ideas" />
                 </div>
               </div>
