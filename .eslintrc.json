@@ -1,3 +1,16 @@
+<<<<<<< HEAD
 {
-  "extends": "next/core-web-vitals"
+=======
+
+  {
+>>>>>>> e44d4aa43043ceecd9b299dfbd31158ff73f4299
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e44d4aa43043ceecd9b299dfbd31158ff73f4299
